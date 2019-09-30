@@ -28,7 +28,6 @@ class SongList extends React.Component {
 
 // Return an object as props on Component in connect param
 const mapStateToProps = state => {
-	console.log(state);
 	return { songs: state.songs };
 };
 
